@@ -1,0 +1,230 @@
+.word-wrapper{text-align: left; color:#fff;}
+.aisfor{display:inline-block;margin-left:10px;}
+.aisfor span{font-size:16px;position: absolute;top:60px;}
+.aisfor span.acronym{font-size:13px;position: absolute;top:62px;margin-left:10px;overflow:hidden;animation: animate 6s linear infinite;opacity:0;}
+
+.pisfor{display:inline-block;margin-left:-11px;}
+.pisfor span{font-size:16px;position: absolute;top:75px;}
+.pisfor span.acronym{font-size:13px;position: absolute;top:77px;margin-left:10px;overflow:hidden;animation: animate 3s linear infinite;opacity:0;}
+
+.risfor{display:inline-block;margin-left:-11px;}
+.risfor span{font-size:16px;position: absolute;top:90px;}
+.risfor span.acronym{font-size:13px;position: absolute;top:92px;margin-left:10px;overflow:hidden;animation: animate 1s linear infinite;opacity:0;}
+
+.iisfor{display:inline-block;margin-left:-11px;}
+.iisfor span{font-size:16px;position: absolute;top:105px;}
+.iisfor span.acronym{font-size:13px;position: absolute;top:107px;margin-left:10px;overflow:hidden;animation: animate 3.30s linear infinite;opacity:0;}
+
+.oisfor{display:inline-block;margin-left:-11px;}
+.oisfor span{font-size:16px;position: absolute;top:120px;}
+.oisfor span.acronym{font-size:13px;position: absolute;top:122px;margin-left:10px;overflow:hidden;animation: animate 1.5s linear infinite;opacity:0;}
+
+.rtwoisfor{display:inline-block;margin-left:-11px;}
+.rtwoisfor span{font-size:16px;position: absolute;top:135px;}
+.rtwoisfor span.acronym{font-size:13px;position: absolute;top:138px;margin-left:10px;overflow:hidden;animation: animate 3s linear infinite;opacity:0;}
+
+.itwoisfor{display:inline-block;margin-left:-11px;}
+.itwoisfor span{font-size:16px;position: absolute;top:150px;}
+.itwoisfor span.acronym{font-size:13px;position: absolute;top:153px;margin-left:10px;overflow:hidden;animation: animate 5s linear infinite;opacity:0;}
+
+@keyframes animate
+{
+	0%
+	{
+		opacity:0;
+		transform:translateY(-5px);
+	}
+	2%
+	{
+		opacity:1;
+		transform:translateY(0px);
+	}
+	18%
+	{
+		opacity:1;
+		transform:translateY(0px);
+	}
+	20%
+	{
+		opacity:0;
+		transform:translateY(5px);
+	}
+	100%
+	{
+		opacity:0;
+		transform:translateY(-5px);
+	}
+}
+
+/* A */
+.aisfor span.acronym:nth-child(1)
+	{
+		animation-delay: 0s;
+	}
+
+.aisfor span.acronym:nth-child(2)
+	{
+		animation-delay: 1s
+	}
+
+.aisfor span.acronym:nth-child(3)
+	{
+		animation-delay: 2s
+	}
+.aisfor span.acronym:nth-child(4)
+	{
+		animation-delay: 3s
+	}
+.aisfor span.acronym:nth-child(5)
+	{
+		animation-delay: 4s
+	}
+.aisfor span.acronym:nth-child(6)
+	{
+		animation-delay: 5s
+	}
+
+/* P */
+
+.pisfor span.acronym:nth-child(1)
+	{
+		animation-delay: 0s;
+	}
+
+.pisfor span.acronym:nth-child(2)
+	{
+		animation-delay: .5s
+	}
+
+.pisfor span.acronym:nth-child(3)
+	{
+		animation-delay: 1s
+	}
+.pisfor span.acronym:nth-child(4)
+	{
+		animation-delay: 1.5s
+	}
+.pisfor span.acronym:nth-child(5)
+	{
+		animation-delay: 2s
+	}
+.pisfor span.acronym:nth-child(6)
+	{
+		animation-delay: 2.5s
+	}
+
+/* R */
+
+.risfor span.acronym:nth-child(1)
+	{
+		animation-delay: 0s;
+	}
+
+.risfor span.acronym:nth-child(2)
+	{
+		animation-delay: .33s
+	}
+
+.risfor span.acronym:nth-child(3)
+	{
+		animation-delay: .66s
+	}
+
+/*I*/
+
+.iisfor span.acronym:nth-child(1)
+	{
+		animation-delay: .0s;
+	}
+
+.iisfor span.acronym:nth-child(2)
+	{
+		animation-delay: .66s
+	}
+
+.iisfor span.acronym:nth-child(3)
+	{
+		animation-delay: 1.32s
+	}
+.iisfor span.acronym:nth-child(4)
+	{
+		animation-delay: 1.98s
+	}
+.iisfor span.acronym:nth-child(5)
+	{
+		animation-delay: 2.64s
+	}
+
+/* O */
+
+.oisfor span.acronym:nth-child(1)
+	{
+		animation-delay: 0s;
+	}
+
+.oisfor span.acronym:nth-child(2)
+	{
+		animation-delay: .5s
+	}
+
+.oisfor span.acronym:nth-child(3)
+	{
+		animation-delay: 1s
+	}
+
+
+/* R2 */
+
+.rtwoisfor span.acronym:nth-child(1)
+	{
+		animation-delay: 0s;
+	}
+
+.rtwoisfor span.acronym:nth-child(2)
+	{
+		animation-delay: .5s
+	}
+
+.rtwoisfor span.acronym:nth-child(3)
+	{
+		animation-delay: 1s
+	}
+.rtwoisfor span.acronym:nth-child(4)
+	{
+		animation-delay: 1.5s
+	}
+.rtwoisfor span.acronym:nth-child(5)
+	{
+		animation-delay: 2s
+	}
+.rtwoisfor span.acronym:nth-child(6)
+	{
+		animation-delay: 2.5s
+	}
+
+	/* I2 */
+
+.itwoisfor span.acronym:nth-child(1)
+	{
+		animation-delay: 0s;
+	}
+
+.itwoisfor span.acronym:nth-child(2)
+	{
+		animation-delay: 1s
+	}
+
+.itwoisfor span.acronym:nth-child(3)
+	{
+		animation-delay: 2s
+	}
+.itwoisfor span.acronym:nth-child(4)
+	{
+		animation-delay: 3s
+	}
+.itwoisfor span.acronym:nth-child(5)
+	{
+		animation-delay: 4s
+	}
+
+
